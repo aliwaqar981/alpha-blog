@@ -1,0 +1,4 @@
+
+<% obj.each do |objcategory| %>
+  <span class="badge"><%= link_to objcategory.name, category_path(objcategory) %></span>
+<% end %>
